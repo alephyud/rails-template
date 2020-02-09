@@ -57,7 +57,7 @@ group :development do
 <% unless gemfile_requirement("puma") -%>
   gem "thin", require: false
 <% end -%>
-  gem "xray-rails", ">= 0.1.18"
+  gem "xray-rails", :github => "brentd/xray-rails", :ref => "4f6cca0"
 end
 
 group :test do
